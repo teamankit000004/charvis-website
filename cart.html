@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart | CHARVIS</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <p>Secure checkout • Easy returns within 7 days</p>
+  </header>
+
+  <header class="main-header">
+    <div class="logo">CHARVIS</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html" class="active">Cart</a>
+    </nav>
+  </header>
+
+  <main class="page cart-page">
+    <header class="section-heading">
+      <div>
+        <p class="eyebrow">Cart</p>
+        <h2>Your Ritual Bag</h2>
+      </div>
+    </header>
+
+    <div class="cart-layout">
+      <div class="cart-items" id="cart-items">
+      </div>
+
+      <aside class="cart-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span id="subtotal">₹0</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span>Free</span>
+        </div>
+        <hr>
+        <div class="summary-row total-row">
+          <span>Total</span>
+          <span id="total">₹0</span>
+        </div>
+        <button class="btn primary full-width">Checkout (Demo)</button>
+        <button class="btn ghost full-width" onclick="clearCart()">Clear Cart</button>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">© 2025 CHARVIS Beauty. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>displayCart();</script>
+</body>
+</html>

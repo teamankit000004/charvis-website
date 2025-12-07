@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CHARVIS | Beauty Rituals</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <p>Save up to 30% • Free shipping on orders above ₹999</p>
+  </header>
+
+  <header class="main-header">
+    <div class="logo">CHARVIS</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">SKIN • RITUALS • BEAUTY</p>
+        <h1>Where Beauty<br>Becomes Ritual</h1>
+        <p class="hero-text">
+          A gentle balance of nature and science — crafted to embrace your skin’s true essence.
+        </p>
+        <div class="hero-actions">
+          <a href="shop.html" class="btn primary">Discover Your Ritual</a>
+          <button class="btn ghost">Learn More</button>
+        </div>
+        <div class="social-proof">
+          <div class="faces">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </div>
+          <div>
+            <div class="stars">★★★★★</div>
+            <small>1M+ glowing customers worldwide</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-bg-circle"></div>
+        <div class="bottle bottle-tall"></div>
+        <div class="bottle bottle-medium"></div>
+        <div class="bottle bottle-small"></div>
+      </div>
+    </section>
+
+    <section class="popular-section">
+      <header class="section-heading">
+        <div>
+          <p class="eyebrow">Most Popular Rituals</p>
+          <h2>Because powerful skincare<br>doesn’t have to be harsh.</h2>
+        </div>
+        <a class="link" href="shop.html">View all products →</a>
+      </header>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="product1.png" alt="Golden Dew Body Serum bottle on a soft beige background">
+          </div>
+          <div class="product-info">
+            <h3>Golden Dew Body Serum</h3>
+            <p class="product-desc">Deep hydration with a silky, baby-skin finish.</p>
+            <div class="product-meta">
+              <span class="price">₹1,499</span>
+              <button onclick="addToCart('Golden Dew Body Serum',1499)" class="btn tiny">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="product2.png" alt="Balance Repair Moisture Cream jar in a minimal setup">
+          </div>
+          <div class="product-info">
+            <h3>Balance Repair Moisture Cream</h3>
+            <p class="product-desc">Soothes, calms and restores radiance overnight.</p>
+            <div class="product-meta">
+              <span class="price">₹1,099</span>
+              <button onclick="addToCart('Balance Repair Moisture Cream',1099)" class="btn tiny">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="product3.png" alt="Light Veil Radiance Serum bottle product shot">
+          </div>
+          <div class="product-info">
+            <h3>Light Veil Radiance Serum</h3>
+            <p class="product-desc">Daily glow serum for soft, luminous skin.</p>
+            <div class="product-meta">
+              <span class="price">₹1,299</span>
+              <button onclick="addToCart('Light Veil Radiance Serum',1299)" class="btn tiny">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div>
+        <h4>Join the CHARVIS Ritual</h4>
+        <p>Be the first to hear about new rituals, skin tips, and exclusive launches.</p>
+        <form class="newsletter">
+          <input type="email" placeholder="Your email here">
+          <button type="submit" class="btn small">Join</button>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h5>Info</h5>
+          <a href="#">About</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div>
+          <h5>Social</h5>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2025 CHARVIS Beauty. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop | CHARVIS</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <p>New: Radiance Ritual Set now live • Limited stock</p>
+  </header>
+
+  <header class="main-header">
+    <div class="logo">CHARVIS</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <header class="section-heading">
+      <div>
+        <p class="eyebrow">Shop</p>
+        <h2>Curated rituals for every skin mood.</h2>
+      </div>
+    </header>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-image">
+          <img src="product1.png" alt="Golden Dew Body Serum bottle on a soft beige background">
+        </div>
+        <div class="product-info">
+          <h3>Golden Dew Body Serum</h3>
+          <p class="product-desc">For ultra-soft, baby-smooth skin.</p>
+          <div class="product-meta">
+            <span class="price">₹1,499</span>
+            <button onclick="addToCart('Golden Dew Body Serum',1499)" class="btn tiny">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="product2.png" alt="Balance Repair Moisture Cream jar in a minimal setup">
+        </div>
+        <div class="product-info">
+          <h3>Balance Repair Moisture Cream</h3>
+          <p class="product-desc">Barrier repair for tired, dry skin.</p>
+          <div class="product-meta">
+            <span class="price">₹1,099</span>
+            <button onclick="addToCart('Balance Repair Moisture Cream',1099)" class="btn tiny">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="product3.png" alt="Light Veil Radiance Serum bottle product shot">
+        </div>
+        <div class="product-info">
+          <h3>Light Veil Radiance Serum</h3>
+          <p class="product-desc">Lightweight glow boost for daily use.</p>
+          <div class="product-meta">
+            <span class="price">₹1,299</span>
+            <button onclick="addToCart('Light Veil Radiance Serum',1299)" class="btn tiny">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="product4.png" alt="Cloud Silk Cleansing Foam minimalist product photo">
+        </div>
+        <div class="product-info">
+          <h3>Cloud Silk Cleansing Foam</h3>
+          <p class="product-desc">Gentle cleanser that doesn’t strip moisture.</p>
+          <div class="product-meta">
+            <span class="price">₹899</span>
+            <button onclick="addToCart('Cloud Silk Cleansing Foam',899)" class="btn tiny">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">© 2025 CHARVIS Beauty. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
